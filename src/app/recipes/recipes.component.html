@@ -1,0 +1,27 @@
+<div class="container-fluid pt-5 ">
+    <h1 class="titleFont text-uppercase hColorStyle text-center ">Recipes</h1>
+     <div class="row pt-5">
+        <div class="col-12">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12  " *ngFor="let res of respiesList">
+                        <div class="card mb-5 cardStyle">
+                        <img [src]="res.strMealThumb" class="card-img-top rounded-3" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title hColorStyle">{{res.strMeal}}</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    
+                        </div>
+                      </div></div>
+                  
+                </div>
+               </div>
+        </div>
+
+    </div> 
+    <div class="row ">  
+        <div class="col-12 d-flex justify-content-center">
+          <app-contact-button></app-contact-button>
+        </div>
+          </div>
+</div>

@@ -1,0 +1,61 @@
+.hStyle{
+    font-family: var(--main-fontFamily);
+    font-size: 170px;
+    font-weight: 900;
+    line-height: 138px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-right: 7rem;
+    
+}
+.pStyle{
+    font-family: "Poppins";
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+width: 277px;
+height: 156px;
+color: var(--main-bgColor);
+margin-left: 13rem;
+margin-top:8rem;
+
+}
+.layoutStyle{
+    z-index: 999999999;
+}
+.imgStyle{  
+
+      top:25rem;
+}
+.imgStyle1{  
+
+    left:6rem;
+}
+.imgStyle2{  
+
+    left:31rem;
+}
+.imgStyle3{  
+
+    left:53rem;
+}
+.imgStyle4{  
+
+    left:75rem;
+}
+.hightCol{
+    height:840px;
+  
+}
+/* .posStyle{
+    
+    top:80rem;
+} */
+img{
+    border-radius: 10px;
+}
+.Padstyle{
+    margin-bottom: 17rem;
+}

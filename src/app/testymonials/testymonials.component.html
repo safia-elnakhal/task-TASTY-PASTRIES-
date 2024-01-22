@@ -1,0 +1,34 @@
+<div class="container-fluid bgImage pt-5 "> 
+            <h1 class="titleFont text-uppercase text-white text-center pt-5  ">testymonials</h1>
+ 
+  
+    
+      
+        <div class="row  py-5 m-auto  g-2 ">
+        
+            <div class="col-lg-8 col-md-12  offset-lg-2   " >
+                         <div class="container">
+                          <div class="row">
+                            <div class="col-lg-6 d-flex justify-content-evenly" *ngFor="let testimonial of testiList">
+                              <div class="card py-3 px-4  mb-5 cardStyle widthCol ">
+                                <div class="card-body" >
+                                  <h5 class="card-title titleStyle ">{{testimonial.name}}</h5>
+                                  <p class="card-text">{{testimonial.opinion}}</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                         </div>
+           
+            </div>
+     
+          </div>
+    
+    <div class="row ">  
+      <div class="col-12 d-flex justify-content-center">
+        <app-contact-button></app-contact-button>
+      </div>
+        </div>
+
+</div>
+

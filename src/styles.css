@@ -1,0 +1,54 @@
+:root{
+   
+    --main-bgColor: #C98A40;
+   --main-fontFamily:'Sen', sans-serif;  
+   --main-btn-bgColor:#FDBA10;
+   --main-fontFamily2: 'Poppins', sans-serif;
+}
+
+.body{
+    font-family: var( --main-fontFamily);
+
+}
+.bgColor{
+    background-image:url("./assets/maskTasty1.png");
+    
+    background-position: 100% 100%;
+background-repeat: no-repeat;
+   
+}
+.mainBgColor{
+    background-color: var(--main-bgColor);
+}
+.mainbtn{
+    background-color:var( --main-btn-bgColor) ;
+    width: 194px;
+    height: 60px;
+    color: white;
+    border-radius: 30px;
+    font-family:var( --main-fontFamily2);
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+
+}
+.fontFamily2{
+    font-family:var( --main-fontFamily2);
+}
+.titleFont{
+font-family: var(--main-fontFamily);
+font-size: 144px;
+font-weight: 800;
+line-height: 138px;
+letter-spacing: 0em;
+
+
+
+}
+.hColorStyle{
+    color: var(--main-bgColor);
+
+}

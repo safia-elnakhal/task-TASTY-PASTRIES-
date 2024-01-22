@@ -1,0 +1,82 @@
+
+
+.pstyle{
+   padding-top:26px ;
+   font-size: 28px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+
+   /* padding-left:421px ; */
+  
+
+}
+h1{
+   
+font-size: 69px;
+font-weight: 700;
+line-height: 89px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.pstyle2{
+  
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.imgStyle{
+    z-index: 9999999 ;
+    width: 666px;
+    height: 414px;
+    top:30rem;
+    left: 70rem;
+    
+
+}
+.iconStyle{
+
+background-image: url("../../assets/Mask1.png") !important;
+background-color: white;
+background-size: 100% 100%;
+padding-left: 0px;
+width: 345px;
+height: 250px;
+
+
+}
+.spanStyle{
+font-family: 'Poppins';
+font-size: 18px;
+font-weight: 100;
+line-height: 26px;
+letter-spacing: 0.15em;
+text-align: left;
+
+}
+.telStyle{
+    font-family: 'Poppins';
+font-size: 18px;
+font-weight: 900;
+line-height: 26px;
+letter-spacing: 0.1em;
+text-align: left;
+
+}
+/* .layoutRadial{
+ border-radius: 50%;
+ background: rgb(228,166,92);
+background: radial-gradient(circle, rgba(228,166,92,1) 0%, rgba(242,168,80,1) 100%);
+ opacity:40%;
+} */
+.iStyle{
+    font-size: 25px;
+    color: var( --main-bgColor);
+
+
+
+}

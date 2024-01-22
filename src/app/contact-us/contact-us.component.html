@@ -1,0 +1,57 @@
+<div class="container-fluid bgImage pt-5 "> 
+  
+    <h1 class="titleFont text-uppercase hColorStyle text-center pt-5  ">Contact us</h1>
+    
+    <div class="row   py-5 m-auto  g-2">
+      <div class="col-lg-6 col-md-12  offset-lg-3   " >
+        <div class="container">
+         <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <form (ngSubmit)="sendUser()">
+                <div class="row mb-3">
+   
+                  <div class="col-sm-12">
+                    <div class="input-group">
+                        <span class="input-group-text py-3" id="inputGroupPrepend2" >Full Name</span>
+                        <input type="text" class="form-control py-3" id="name" name="name" [(ngModel)]="newUser.name"  required>
+                      </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-sm-12">
+                  
+                    <div class="input-group">
+                        <span class="input-group-text py-3" id="inputGroupPrepend2">Email</span>
+                        <input type="Email" class="form-control py-3" id="email"  name="email" [(ngModel)]="newUser.email" required>
+                      </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-12">
+                    
+                      <div class="input-group">
+                          <span class="input-group-text py-3" id="inputGroupPrepend2">Phone Number</span>
+                          <input type="number" class="form-control py-3" id="phone" name="phone" [(ngModel)]="newUser.phone"  required>
+                        </div>
+                    </div>
+                  </div>
+                      <div class="row mb-3">
+                        <div class="col-sm-12 d-flex justify-content-center">
+                          <button type="submit" class="btn btnStyle py-3 ">SEND</button>
+                        </div>
+                      </div>
+              
+              </form>
+        
+        </div>
+        <div class="col-lg-6 col-md-12 ps-5 pt-5 fontStyle">
+            <p> <fa-icon class="hColorStyle pe-2"  [icon]="faEnvelope"></fa-icon> upskilling.eg1@gmail.com</p>
+            <p>  <fa-icon class="hColorStyle pe-2"  [icon]="faPhone"></fa-icon>+20 115 493 2137</p>
+        </div>
+
+
+         </div></div></div>
+      
+    </div>
+
+</div>

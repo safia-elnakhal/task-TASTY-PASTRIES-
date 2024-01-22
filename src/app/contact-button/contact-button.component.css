@@ -1,0 +1,15 @@
+
+.btnStyle{
+    font-family: 'Poppins';
+font-size: 18px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+background-color: var( --main-btn-bgColor);
+border-radius: 30px;
+padding: 15px 40px;
+
+
+}
