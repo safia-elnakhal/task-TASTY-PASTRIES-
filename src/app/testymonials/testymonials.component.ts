@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { Testimonials } from 'src/app/models/testimonials';
 
 
@@ -8,6 +9,8 @@ import { Testimonials } from 'src/app/models/testimonials';
   styleUrls: ['./testymonials.component.css']
 })
 export class TestymonialsComponent {
+  faStar = faStar;
+
   testiList: Testimonials[] = [];
   
 
