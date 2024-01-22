@@ -59,3 +59,106 @@ img{
 .Padstyle{
     margin-bottom: 17rem;
 }
+
+@media only screen and (max-width: 850px) {
+    .pStyle{
+        margin-left: 2rem;
+        margin-top:1rem;
+    }
+ 
+    .hStyle{
+        font-size: 100px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .imgStyle{  
+
+        top:43rem;
+   
+  }
+
+  .imgStyle2 , .imgStyle3 , .imgStyle4{  
+  
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .pStyle{
+        margin-left: 2rem;
+        margin-top:1rem;
+    }
+ 
+    .hStyle{
+        font-size: 100px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .imgStyle{  
+
+        top:22rem;
+  }
+  .imgStyle1{  
+  
+      left:8rem;
+  }
+
+ 
+  .imgStyle2{  
+
+    left:33rem;
+}
+.imgStyle3{  
+
+    left:55rem;
+}
+.imgStyle4{  
+
+    display: none;
+}
+
+ 
+
+}
+@media only screen and (max-width: 1200px) {
+    
+    .hStyle{
+        font-size: 80px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .imgStyle1{  
+  
+        left:8rem;
+    }
+  
+   
+    .imgStyle2{  
+  
+      left:33rem;
+  }
+  .imgStyle3 , .imgStyle3{  
+  
+    display: none;
+  }
+
+  
+}
+@media only screen and (max-width: 1000px) {
+
+    .hStyle{
+        font-size: 60px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+   .imgStyle{
+
+        top:35rem;
+    }
+
+
+}
+

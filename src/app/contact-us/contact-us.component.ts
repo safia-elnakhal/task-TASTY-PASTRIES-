@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { IUsers } from '../models/iusers';
 import { UsersService } from '../Services/users.service';
-import { faEnvelope  ,faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+
+
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
@@ -20,7 +22,8 @@ export class ContactUsComponent {
 
   ngOnInit(): void {
   }
-  
+
+
   sendUser() {
     const observer = {
       next: (user: IUsers) => {

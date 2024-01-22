@@ -17,3 +17,41 @@ img{
   left:60rem;
  
 }
+
+@media only screen and (max-width: 1200px) {
+
+  .hStyle{
+    font-family: "Sen";
+    font-size: 70px;
+    font-weight: 400;
+  }
+  img {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+
+  
+img{
+  width:30%;
+height:70% ;
+
+left:60rem;
+
+}
+}
+
+@media only screen and (max-width: 1400px) {
+
+
+  
+  img{
+
+  left:52rem;
+  
+  }
+  }

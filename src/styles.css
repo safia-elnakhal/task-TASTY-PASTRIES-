@@ -52,3 +52,12 @@ letter-spacing: 0em;
     color: var(--main-bgColor);
 
 }
+
+@media only screen and (max-width: 1200px) {
+    .titleFont{
+  
+      font-size: 100px;
+      font-weight: 600;
+  
+    }  
+  }
